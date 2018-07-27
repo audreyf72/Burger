@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Build A Better Burger</title>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+</head>
+<body>
+    <div class ="container">
+        <header>
+            <img class="headerLogo" src="./assets/images/betterburger.svg" alt="App Logo">
+        </header>
+    
+        <div class ="task">
+            {{#each burger_data}}
+            {{#unless this.devoured}}
+            <pre>{{this.id}}. {{this.burger_name}}</pre>
+    
+            <form class ="devour-form">
+                <input input type="hidden" class="burger_id" type="text" value={{this.id}}>
+                <br>
+                <button type="submit" class="devourBtn">Devour it!</button>
+            </form>
+        </div>
+    
+        <div class="task">
+            {{#each burger_data}}
+            {{#if this.devoured}}
+            <br>
+                <input class="form-control" type="text" placeholder="{{this.id . {{this.burger_name}}"
+                readonly> <br>{{/if}} {{/each}}
+        </div>
+    
+    </div>
+    
+    <div class="container">
+        <div class ="row">
+            <p>Describe a burger you want to eat then click the button to build it.</p>
+                <form action="/burgers/create" method="POST">
+                <input type="text" class="form-control" name="burger_Name" value="" id="enter_text">
+                <br>
+                <button type="submit" class="burgerBtn" id="add-burger-btn">Build Your Burger!</button>
+                </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="/assets/js/script.js"></script>
+</body>
+</html>
