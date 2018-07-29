@@ -2,7 +2,7 @@
 
 ### Overview
 
-This Build A Better Burger app lets users input the names of burgers they'd like to eat and then either eat them or leave them for someone else to eat!
+This Build A Better Burger app lets users input a description of burgers they'd like to eat and then either devour them or leave them for someone else to eat!
 
 Please check out the deployed app on Heroku [here](https://shrouded-coast-56714.herokuapp.com/burgers)!
 
