@@ -34,14 +34,15 @@ Using a custom ORM, the app has 3 basic CRUD functions...
 * Heroku
 
 ### Screenshots
-- Home View
-  ![Full Size](/screenshots/home.png)
+
+Home View
+![Full Size](/screenshots/home.png)
 
 
-- Add A Burger
-  ![Mobile Size](/screenshots/add.png)
+Add A Burger
+![Mobile Size](/screenshots/add.png)
 
 
-- Eat A Burger
-  ![Mobile Size](/screenshots/eat.png)
+Eat A Burger
+![Mobile Size](/screenshots/eat.png)
 
