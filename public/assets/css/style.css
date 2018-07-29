@@ -84,7 +84,7 @@ h3 {
 }
 
 .form-control {
-    width: 100%;
+    width: 95%;
     max-width: 400px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -175,5 +175,10 @@ footer {
 
     .columnRight {
         width: 100%;
+    }
+
+    body, html {
+        background-position-y: top;
+        background-position-x: 12%;
     }
 }
