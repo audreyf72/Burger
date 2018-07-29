@@ -40,11 +40,11 @@ Using a custom ORM, the app has 3 basic CRUD functions:
 Home View
 ![Full Size](/screenshots/home.png)
 
-
 Add A Burger
-![Mobile Size](/screenshots/add.png)
-
+![Full Size](/screenshots/add.png)
 
 Eat A Burger
-![Mobile Size](/screenshots/eat.png)
+![Full Size](/screenshots/eat.png)
 
+Mobile View
+![Mobile Size](/screenshots/mobile.png)
