@@ -2,7 +2,7 @@
 
 ### Overview
 
-This Build A Better Burger app lets users input a description of burgers they'd like to eat and then either devour them or leave them for someone else to eat!
+This Build A Better Burger app lets users input a description of burgers they'd like to build and then either devour them or leave them for someone else to eat!
 
 Please check out the deployed app on Heroku [here](https://shrouded-coast-56714.herokuapp.com/burgers)!
 
@@ -14,9 +14,9 @@ Using a custom ORM, the app has 3 basic CRUD functions:
 
   2. UPDATE a selected burger by clicking "Devour It":
     * Changes the burgers status to "devoured" in the MySQL database
-    * Moves the burger to the devoured column (via Handlebars)
+    * Moves the burger to the devoured column (via Handlebars) and resets the page
 
-  3. CREATE a new burger using the "Built it!" form:
+  3. CREATE a new burger using the "Build it!" form:
     * Inserts a new burger into the MySQL database
     * Moves the burger to the Ready to Eat! column (via Handlebars) and resets the page
 
