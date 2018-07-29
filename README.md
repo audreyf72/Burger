@@ -21,7 +21,7 @@ Using a custom ORM, the app has 3 basic CRUD functions:
     * Moves the burger to the Ready to Eat! column (via Handlebars) and resets the page
 
 
-### Technologies Used and Requirments
+### Technologies Used and Dependencies
 
 * HTML
 * CSS
