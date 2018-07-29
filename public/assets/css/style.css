@@ -8,11 +8,12 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: black;
-    background-image: url(../images/ingredients.png), url(../images/background.jpg);
+    background-image: url(../images/ingredients2.png), url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: 1800px;
-    background-position-y: 69%, top;
+    background-position-y: 80%, top;
     background-position-x: center;
+    overflow: auto;
 }
 
 p {
@@ -25,6 +26,12 @@ h2 {
     color: white;
     margin:0px 0px 10px 0px;
     font-size: 18pt;
+    width: 100%;
+    background-color: black;
+    border-top: rgb(67, 67, 67) solid 2px;
+    border-bottom: rgb(67, 67, 67) solid 2px;
+    padding: 12px 10px 10px 10px;
+    box-shadow: 0px 3px 6px #000000;
 }
 
 h3 {
@@ -39,8 +46,9 @@ h3 {
 }
 
 .headerLogo {
-    margin: 20px 0px 10px 0px;
+    margin: 30px 0px 10px 0px;
     width: 100%;
+    width: 95%;
     max-width: 450px;
 }
 
@@ -50,8 +58,6 @@ h3 {
     display: table;
     text-align: center;
     margin: auto;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .columnLeft {
@@ -87,7 +93,7 @@ h3 {
 }
 
 .form-control2 {
-    width: 100%;
+    width: 95%;
     background-color: aliceblue;
     max-width: 400px;
     height: 70px;
@@ -134,7 +140,40 @@ h3 {
     display: flex;
     width: 900px;
     flex-direction: row;
-    margin: auto;
+    margin: 0px auto 55px auto;
     border-radius: 5px;
     background-color: aliceblue;
+    overflow: auto;
+}
+
+footer {
+    font-size: 10pt;
+    font-weight: 100;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    border-top: rgb(67, 67, 67) solid 2px;
+    padding: 20px 0px 5px 0px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    .row {
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        padding: 17px 20px 15px 20px;
+    }
+
+    .columnLeft {
+        width: 100%;
+    }
+
+    .columnRight {
+        width: 100%;
+    }
 }

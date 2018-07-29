@@ -19,6 +19,7 @@
 	<div class ="row">
 		<div class="columnLeft" class="task">
 			<h3>Ready to eat!</h3>
+			<hr>
 			  {{#each burger_data}}
 			  	{{#unless this.devoured}}
 				
@@ -35,7 +36,8 @@
 		</div>
 
 		<div class="columnRight" class="task">
-			<h3>Devoured:</h3>
+			<h3>Devoured</h3>
+			<hr>
 			  {{#each burger_data}}
 			  	{{#if this.devoured}}
 			  		<input class="form-control" type="text" placeholder="{{this.id}} . {{this.burger_name}}" readonly>
@@ -43,4 +45,8 @@
 			  {{/each}}
 		</div>
 	</div>
+</div>
+
+<div class="container">
+	<footer>&copy;2018 Audrey Fernandez</footer>
 </div>
